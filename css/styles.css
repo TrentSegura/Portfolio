@@ -11,6 +11,8 @@ html {
 
   color: hsl(0, 0%, 60%);
   background-color: hsl(0, 0%, 3%);
+
+  margin: 0;
 }
 
 /* font-family: beastly,sans-serif;
@@ -29,9 +31,9 @@ font-style: normal;
 
 a {
   color: hsl(0, 0%, 60%);
-  /* text-decoration: none;
+  text-decoration: none;
   display: inline-block;
-  border-bottom: 0.25px solid; */
+  border-bottom: 0.25px solid hsl(0, 0%, 40%);
 }
 
 a:hover {
@@ -63,13 +65,16 @@ a:hover {
 }
 
 .marginals {
-  padding: 1em;
+  padding: 1.6187em;
 }
 
 /* Header */
 
 header {
   position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 header h1 {
@@ -77,6 +82,10 @@ header h1 {
   text-transform: uppercase;
   font-size: 1em;
   font-weight: 700;
+}
+
+header p {
+  font-size: 1em;
 }
 
 /* INTRO */
@@ -87,6 +96,8 @@ header h1 {
   flex-direction: column;
   place-content: flex-end;
   gap: 1.6187em;
+
+  border-bottom: 1px solid;
 }
 
 .intro h2 {
