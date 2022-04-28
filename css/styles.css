@@ -4,8 +4,8 @@
 body,
 html {
   font-family: "Inter", sans-serif;
-  font-size: 20px;
-  color: hsl(0, 0%, 85%);
+  font-size: 16px;
+  color: hsl(0, 0%, 60%);
   background-color: hsl(0, 0%, 3%);
 }
 
@@ -21,15 +21,22 @@ font-style: normal;
 */
 
 p {
+  font-family: ibm-plex-mono, sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.45;
 }
 
 a {
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 60%);
   /* text-decoration: none;
   display: inline-block;
   border-bottom: 0.25px solid; */
+}
+
+a:hover {
+  color: hsl(0, 0%, 90%);
 }
 
 /* Annimation */
@@ -59,13 +66,13 @@ a {
 }
 
 header {
-  padding: 1em;
   position: fixed;
 }
 
 header h1 {
+  color: hsl(0, 0%, 90%);
   text-transform: uppercase;
-  font-size: 0.6em;
+  font-size: 1em;
   font-weight: 700;
 }
 
@@ -74,11 +81,11 @@ header h1 {
   display: flex;
   flex-direction: column;
   place-content: flex-end;
-  gap: 1em;
+  gap: 2em;
 }
 
 .intro h2 {
-  color: #fff;
+  color: hsl(0, 0%, 90%);
   font-family: beastly, sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -87,11 +94,11 @@ header h1 {
 }
 
 .intro h3 {
-  max-width: 750px;
+  max-width: 650px;
   color: hsl(0, 0%, 50%);
   font-size: 1.6187em;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -1px;
 }
 
